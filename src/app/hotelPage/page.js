@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default () => {
+export default function Home(){
     return (
         <main className="bg-gray-100">
 
@@ -8,7 +8,7 @@ export default () => {
 
             <header className="container flex items-center justify-between mx-auto px-4 h-24">
                 <div className="font-black">
-                    Resorts Brasil
+                    LOGO
                 </div>
 
                 <ul>
@@ -69,10 +69,10 @@ export default () => {
                 <div className="container flex flex-col md:flex-row justify-center items-center mx-auto px-4 space-y-4 text-gray-600">
                     <div className="container flex-grow mx-auto px-4 py-10">
                         <h5 className="text-sm text-gray-400 font-medium">RESORT EM DESTAQUE</h5>
-                        <h3 className="text-2xl">Transamerica Comandatuba na Bahia</h3>
+                        <h3 className="text-2xl">Transamerica Comandatuba Bahia</h3>
                         <h5 className="text-sm text-gray-400 font-medium">Hotel qualidade 5 estrelas</h5>
                         <p className="text-sm text-gray-400 mt-4 font-medium">O Transamerica Comandatuba é um incrível resort all inclusive, com opções de lazer para curtir do amanhecer até o fim do dia. Praticamente sinônimo da Ilha de Comandatuba, no sul da Bahia, a hospedagem conta com piscinas, campos de futebol, quadras de tênis e beach tennis, arco e flecha e mais!</p>
-                        <p className="text-sm text-gray-400 mt-4 font-medium">A criançada de 4 a 12 anos aproveita também a recreação monitorada, assim como os adultos, que também têm programação de atividades.</p><br />
+                        <p className="text-sm text-gray-400 mt-3 mb-4 font-medium"></p>
                         <button className="group flex items-center justify-center bg-orange-500 text-yellow-900 font-medium px-3 py-2 rounded-md">
                             Solicitar reserva
                             <svg className="w-6 h-6 ml-2 group-hover:ml-6 group-hover:{transition duration-500 ease-in-out} " aria-hidden="true" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +105,7 @@ export default () => {
                     <div>
                         <h3 className="text-2xl text-gray-500 font-semibold text-center mb-8">Conheça mais resorts</h3>
 
-                        <div className="grid grid-cols-2 grid-rows-4 md:grid-cols-4 md:grid-rows-2 gap-6 mb-8 h-[400px]">
+                        <div className="grid grid-cols-4 grid-rows-2 gap-6 mb-8 h-[400px]">
 
                             <div className="row-span-2 col-span-2 relative hover:cursor-pointer">
                                 <Image
@@ -220,9 +220,9 @@ export default () => {
                 </div>
             </section>
 
-            <section className="border-t-2 border-gray-300 mb-4">
+            <section className="border-t-2 border-gray-300">
                 <div className="container mx-auto p-4 flex items-center justify-between ">
-                    <div className="font-black">Resorts Brasil</div>
+                    <div className="font-black">FOOTER</div>
                     <div className="flex space-x-4">
                         <Image
                             src={'/images/icon-facebook.png'}
